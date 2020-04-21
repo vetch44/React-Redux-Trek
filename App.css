@@ -1,0 +1,106 @@
+body{
+  background-image: url(./Images/him3.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkslategray;
+}
+p{
+  position: static;
+}
+.ap{
+  display: flex;
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  opacity: .8;
+}
+ul{
+  margin-top: 300px;
+}
+ul li{
+  text-align: left;
+  margin-left:5%;
+  cursor: pointer; 
+  font-size: x-large;
+  width: 20vw;
+  display: block;
+  margin-top: 10px;
+  animation-name: tab;
+  animation-duration: 4s;
+  font-weight: bold;
+  font-style: italic;
+  color: darkcyan;
+}
+ul li:hover{
+  margin-left: 8%;
+  font-size: xx-large;
+  color: brown;
+}
+.calosc{
+  margin-top: 5%;
+  float: right; 
+  margin-left: 10%;
+  border-radius: 8%;
+  background-color: gray;
+  opacity: .8;
+}
+@keyframes tab {
+  from{
+    margin-left: 900px;
+  }
+  to{
+margin-left: 5%;
+  }
+}
+button{
+  padding: 15px;
+  cursor: pointer;
+  background-color: crimson;
+  color: aqua;
+  border-radius: 40%;
+}
+a{
+  cursor: pointer;
+}
+img{
+opacity: 1;
+z-index: 10;
+cursor: pointer;
+}
+img:hover{
+ transform: scale(2);
+}
+.ws{
+  margin-top: 900px;
+  position:absolute;
+  margin-left: 200px;
+  background-color: ivory;
+  opacity: .8;
+  border-radius: 30%;
+}
+footer{
+  color: black;
+  font-style: italic;
+  font-size: large;
+  position: absolute;
+}
+h1{
+  font-size: 35px;
+  font-weight: bolder;
+}
+h2{
+  font-size: 47px;
+  font-weight: bolder;
+  color: green;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

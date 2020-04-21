@@ -1,0 +1,132 @@
+.pier{
+    color: green;
+    font-size: x-large;
+    height: 560px;
+    width: 960px;
+    animation-duration: 3s;
+    animation-name: pier;
+}
+@keyframes pier{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.Dwa{
+color: brown;
+font-size: x-large;
+    height: 560px;
+    width: 960px;
+    animation-duration: 3s;
+    animation-name: dwa;
+}
+.Tri{
+color: chartreuse;
+font-size: x-large;
+    height: 560px;
+    width: 960px;
+    animation-duration: 3s;
+    animation-name: tri;
+}
+.Czwar{
+color: darkblue;
+font-size: x-large;
+    height: 560px;
+    width: 960px;
+    animation-duration: 3s;
+    animation-name: czwar;
+}
+.Pia{
+color: gold;
+font-size: x-large;
+    height: 560px;
+    width: 960px;
+    animation-duration: 3s;
+    animation-name: pia;
+}
+.Wsio{
+color: olive;
+font-size: x-large;
+    height: 360px;
+    width: 960px;
+    animation-duration: 2s;
+    animation-name: wsio;
+}
+@keyframes dwa{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes tri{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes czwar{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes pia{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes wsio{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.zdjecia{
+    display: flex;
+}
+.zdje{
+    display:flex;
+    position: static;
+    display: block;
+    font-size: large;
+    margin-right: 10px;
+    margin-left: 70px;
+}
+div p button{
+    color: red;
+    font-weight: bolder;
+    background-color: white;
+    padding: 2%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 1px;
+}
+h6{
+    font-size: xx-large;
+    color: sienna;
+    font-weight: bolder;
+    height: 30px;
+    margin-bottom: 0px;
+}
+.wyn{
+    color: teal;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.Wsio{
+    color: yellow;
+    font-size: x-large;
+    font-style: italic;
+}
+article{
+    margin-left: 5%;
+    width: 40%;
+    font-size: x-large;
+}
+.zdc{
+    flex: 50%;
+    margin-left: 50px;
+    margin-right: 5%;
+    }
+.fl{
+    display: flex;
+}
+.stats{
+    color: black;
+}
+img{
+    margin-right: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
